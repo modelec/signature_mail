@@ -16,16 +16,15 @@
                     margin-top:0px !important;
                     visibility:inherit !important;
                 }
-                
                 /* Hides Light Mode-Only Content, Like Images */
                 .light-img { 
                     display:none; 
                     display:none !important; 
                 }
             }
-
             /* Shows Dark Mode-Only Content, Like Images */
-            [data-ogsc] .dark-img {
+            [data-ogsc] .dark-img,
+            [data-ogsb] .dark-img {
                 mso-hide: none;
                 display: block !important;
                 width: auto !important;
@@ -37,9 +36,9 @@
                 margin-top: 0px !important;
                 visibility: inherit !important;
             } 
-
             /* Hides Light Mode-Only Content, Like Images */
-            [data-ogsc] .light-img {
+            [data-ogsc] .light-img,
+            [data-ogsb] .light-img {
                 mso-hide: all;
                 display: none;
                 display: none !important;
